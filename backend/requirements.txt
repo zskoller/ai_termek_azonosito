@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pgvector
+pydantic
+pandas
+openpyxl
+sentence-transformers
+Pillow
+python-multipart
+deep-translator
+requests
+beautifulsoup4
+duckduckgo-search
