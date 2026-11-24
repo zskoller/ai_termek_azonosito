@@ -77,11 +77,17 @@ Repozitórium klónozása:
    7. Mappastruktúra
       
    ├── backend/                # FastAPI alkalmazás, AI modul, SQLAlchemy modellek, PyTest tesztek
+   
    ├── frontend/               # Streamlit grafikus felhasználói felület
+   
    ├── sample_data/            # Anonimizált minta Excel készlet és tesztfotók
+   
    ├── .github/workflows/      # GitHub Actions CI/CD (flake8, pytest, Docker build)
+   
    ├── docker-compose.yml      # Konténer-topológia és hálózati beállítások
+   
    ├── requirements.txt        # Python függőségek
+   
    └── README.md               # Futtatási és dokumentációs útmutató
    
    
