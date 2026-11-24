@@ -9,10 +9,10 @@ Ez a repozitórium egy elszigetelt (Docker Sandbox) környezetben futó, mikrosz
 
 Főbb funkciók
 Referenciaalapú vizuális keresés:** Az OpenAI CLIP (`clip-ViT-B-32`, eredeti OpenAI súlyokkal) modell segítségével 512 dimenziós vektorok generálása és koszinusz-távolság alapú keresés PostgreSQL (pgvector) adatbázisban.
-Hibrid izoláció (On-Premise AI):** A képfeldolgozás és a vektoros keresés 100%-ban helyben fut; a képek nem hagyják el a belső hálózatot.
+Hibrid izoláció (On-Premise AI):A képfeldolgozás és a vektoros keresés 100%-ban helyben fut; a képek nem hagyják el a belső hálózatot.
 Hibatűrő web-scraping (Fallback):** Opcionális lengyel webshop-kereső modul (`duckduckgo-search`), amely hálózati hiba vagy offline (air-gapped) mód esetén is engedi a folyamat befejezését (*Graceful Degradation*).
-Tömeges adatimport és export:** Készletbetöltés Excel (`.xlsx`) fájlból szigorú Pydantic típusvalidációval, valamint egykattintásos angol nyelvű Excel megrendelőlap generálása.
-Biztonság:** Állapotmentes JWT hitelesítés és szerepkör alapú hozzáférés-vezérlés (RBAC: `operator` / `admin`).
+Tömeges adatimport és export:Készletbetöltés Excel (`.xlsx`) fájlból szigorú Pydantic típusvalidációval, valamint egykattintásos angol nyelvű Excel megrendelőlap generálása.
+Biztonság:Állapotmentes JWT hitelesítés és szerepkör alapú hozzáférés-vezérlés (RBAC: `operator` / `admin`).
 
 
 2. Technológiák és függőségek
